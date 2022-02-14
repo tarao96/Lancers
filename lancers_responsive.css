@@ -1,0 +1,12 @@
+@media(max-width: 1000px) {
+    .nav-menu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    
+    .form p {
+        left: 50px;
+    }
+}
