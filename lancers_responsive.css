@@ -1,12 +1,124 @@
-@media(max-width: 1000px) {
+@media(max-width: 480px) {
     .nav-menu {
         margin-left: auto;
         margin-right: auto;
     }
 
+    .header-top {
+        height: 400px;
+    }
 
+    .header-top > img {
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .header-top > a > img {
+        width: 300px;
+    }
+
+    .header-bottom > a > img {
+        width: 370px;
+        height: 100px;
+    }
     
     .form p {
         left: 50px;
+    }
+
+    .nav-menu {
+        padding: 0;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .nav-menu > li {
+        margin: 0;
+        font-size: 4px;
+        margin-right: 15px;
+    }
+
+    .nav-menu > li > a {
+        display: block;
+        line-height: 70px;
+        text-align: center;
+        height: 70px;
+        margin-right: 0;
+    } 
+
+    .contents-top > .container > img {
+        width: 100vw;
+    }
+
+    .contents-wrapper > .container > .content1 > p > img {
+        width: 100vw;
+    }
+
+    .contents-wrapper > .container > .content2 > p > img {
+        width: 100vw;
+    }
+
+    .contents-wrapper > .container > .content3 > p > img {
+        width: 100vw;
+    }
+
+    .contents-wrapper > .container > .content4 > p > img {
+        width: 100vw;
+        height: 1200px;
+    }
+
+    .contents-wrapper > .container > .content5 {
+        height: 200px;
+    }
+
+    .contents-wrapper > .container > .content5 > p > img {
+        width: 100vw;
+    }
+
+    .contents-list {
+        height: 600px;
+    }
+
+    .contents-list > .container > img {
+        width: 100vw;
+    }
+
+    .seminar-info > .container > .seminar-heading {
+        height: 150px;
+    }
+
+    .seminar-info > .container > .seminar-heading > img {
+        width: 100vw;
+    }
+
+    .seminar-info > .container > .seminar-heading > p {
+        font-size: 14px;
+    }
+
+    .seminar-info > .container > .access > p > img {
+        width: 100px;
+    }
+
+    .seminar-info > .container > .access > p > iframe {
+        height: 200px;
+    }
+
+    .seminar-info > .container > .form > img {
+        width: 100vw;
+    }
+
+    .seminar-info > .container > .form > p {
+        font-size: 10px;
+        top: 180px;
+        left: 20px;
+        padding: 5px 10px;
+    }
+
+    .self-introduction > .container > img {
+        width: 100vw;
+    }
+
+    footer > .container > p {
+        font-size: 12px;
     }
 }
