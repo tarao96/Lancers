@@ -28,7 +28,7 @@
 
     .nav-menu {
         padding: 0;
-        width: 100vw;
+        width: 980px;
         margin: 0 auto;
     }
 
@@ -43,7 +43,6 @@
         text-align: center;
         height: 70px;
         margin-right: 0;
-        font-size: 14px;
     } 
 
     .contents-top > .container > img {
