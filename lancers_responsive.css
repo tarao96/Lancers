@@ -34,7 +34,6 @@
 
     .nav-menu > li {
         margin: 0;
-        font-size: 12px;
         margin-right: 15px;
     }
 
@@ -44,6 +43,7 @@
         text-align: center;
         height: 70px;
         margin-right: 0;
+        font-size: 14px;
     } 
 
     .contents-top > .container > img {
